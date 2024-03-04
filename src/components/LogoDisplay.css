@@ -1,0 +1,127 @@
+.hello-there {
+  position: relative;
+}
+.greeting-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.iam {
+  color: var(--white);
+}
+.abid,
+.iam-waleed {
+  margin: 0;
+}
+.iam-waleed-abid-container {
+  margin: 0;
+  width: 447px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.graphic-designer {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+}
+.graphic-design-portfolio,
+.iam-waleed-abid-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.iam-waleed-abid-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 7px 0;
+}
+.graphic-design-portfolio {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-24xl) var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-61xl);
+  color: var(--color-mediumspringgreen);
+}
+.learn-more-child {
+  height: 73px;
+  width: 426px;
+  position: relative;
+  border: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.click-to-learn {
+  position: relative;
+  z-index: 1;
+}
+.learn-more,
+.logo-display {
+  display: flex;
+  max-width: 100%;
+}
+.learn-more {
+  border: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-41xl) var(--padding-10xs)
+    var(--padding-40xl);
+  cursor: pointer;
+  font-size: var(--font-size-21xl);
+}
+.logo-display {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 800px) {
+  .hello-there {
+    font-size: var(--font-size-9xl);
+  }
+  .iam-waleed-abid-container {
+    font-size: var(--font-size-21xl);
+  }
+  .click-to-learn,
+  .graphic-designer {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hello-there {
+    font-size: var(--font-size-2xl);
+  }
+  .graphic-designer,
+  .iam-waleed-abid-container {
+    font-size: var(--font-size-5xl);
+  }
+  .graphic-design-portfolio {
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .click-to-learn {
+    font-size: var(--font-size-5xl);
+  }
+  .learn-more {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

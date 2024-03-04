@@ -1,0 +1,223 @@
+.frame-child {
+  width: 596px;
+  height: 323.2px;
+  position: relative;
+  border: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.client-reviews-icon {
+  height: 126.4px;
+  width: 136.4px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.brett-ettridge {
+  margin: 0;
+  height: 57.5px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.brett-ettridge-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.client-reviews-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.client-reviews-parent {
+  align-items: center;
+  gap: 0 25px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.outstanding-service-and {
+  width: 557.8px;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.qotation-1-icon {
+  width: 45.2px;
+  height: 42.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: -21px;
+  right: 125.1px;
+  z-index: 1;
+}
+.frame-item,
+.rectangle-parent {
+  width: 596px;
+  position: relative;
+  border: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-mini) var(--padding-smi)
+    var(--padding-smi);
+  gap: 11px 0;
+}
+.frame-item {
+  height: 323.2px;
+  display: none;
+  z-index: 0;
+}
+.review-frame-icon {
+  height: 126.4px;
+  width: 136.4px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.anna-rose {
+  margin: 0;
+  height: 57.5px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.anna-rose-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frame-wrapper1,
+.review-frame-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.review-frame-parent {
+  align-items: center;
+  gap: 0 25px;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.i-had-to {
+  width: 557.8px;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.qotation-1-icon1 {
+  width: 45.2px;
+  height: 42.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: -21px;
+  right: 125.1px;
+  z-index: 1;
+}
+.rectangle-group {
+  width: 596px;
+  border: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-mini) var(--padding-smi)
+    var(--padding-smi);
+  position: relative;
+  gap: 11px 0;
+  max-width: 100%;
+}
+.frame-div,
+.reviews-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  width: 1368px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.reviews-inner {
+  width: 1389px;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 1525px) {
+  .frame-div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .client-reviews-icon {
+    flex: 1;
+  }
+  .brett-ettridge {
+    font-size: var(--font-size-13xl);
+  }
+  .client-reviews-parent {
+    flex-wrap: wrap;
+  }
+  .review-frame-icon {
+    flex: 1;
+  }
+  .anna-rose {
+    font-size: var(--font-size-13xl);
+  }
+  .review-frame-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .brett-ettridge {
+    font-size: var(--font-size-5xl);
+  }
+  .outstanding-service-and {
+    font-size: var(--font-size-4xl);
+  }
+  .anna-rose {
+    font-size: var(--font-size-5xl);
+  }
+  .i-had-to {
+    font-size: var(--font-size-4xl);
+  }
+}

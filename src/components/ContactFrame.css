@@ -1,0 +1,194 @@
+.side-img-icon {
+  height: 590px;
+  width: 483px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  max-width: 100%;
+}
+.email {
+  position: relative;
+  text-decoration: underline;
+}
+.waleedabid10outlookcom {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.email-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 48px;
+  max-width: 100%;
+}
+.div,
+.phone {
+  position: relative;
+}
+.phone {
+  text-decoration: underline;
+}
+.div {
+  font-size: var(--font-size-21xl);
+  white-space: nowrap;
+}
+.email-and-phone-frame,
+.phone-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 35px;
+  max-width: 100%;
+}
+.phone-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px 0;
+}
+.whatsapp-button-child {
+  height: 65px;
+  width: 224px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+}
+.vector-shape-icon {
+  height: 43px;
+  width: 184px;
+  position: relative;
+  z-index: 1;
+}
+.whatsapp-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs);
+  background-color: var(--white);
+  width: 224px;
+  border-radius: var(--br-xs);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.thank-you-for {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-16xl);
+}
+.inner-frame1,
+.parent-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.parent-frame {
+  gap: 44px 0;
+}
+.inner-frame1 {
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  min-width: 861px;
+}
+.contact-frame,
+.text-frame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.text-frame {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 138px;
+}
+.contact-frame {
+  width: 1668px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 1500px) {
+  .inner-frame1,
+  .side-img-icon {
+    flex: 1;
+  }
+  .text-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .inner-frame1 {
+    min-width: 100%;
+  }
+  .text-frame {
+    gap: 0 138px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .email {
+    font-size: var(--font-size-21xl);
+  }
+  .waleedabid10outlookcom {
+    font-size: var(--font-size-13xl);
+  }
+  .email-input {
+    flex-wrap: wrap;
+    gap: 0 48px;
+  }
+  .phone {
+    font-size: var(--font-size-21xl);
+  }
+  .div {
+    font-size: var(--font-size-13xl);
+  }
+  .email-and-phone-frame {
+    flex-wrap: wrap;
+  }
+  .thank-you-for {
+    font-size: var(--font-size-9xl);
+  }
+  .text-frame {
+    gap: 0 138px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email {
+    font-size: var(--font-size-11xl);
+  }
+  .waleedabid10outlookcom {
+    font-size: var(--font-size-5xl);
+  }
+  .phone {
+    font-size: var(--font-size-11xl);
+  }
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+  .email-and-phone-frame {
+    gap: 0 35px;
+  }
+  .thank-you-for {
+    font-size: var(--font-size-2xl);
+  }
+  .parent-frame {
+    gap: 44px 0;
+  }
+  .text-frame {
+    gap: 0 138px;
+  }
+}

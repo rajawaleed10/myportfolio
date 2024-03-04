@@ -1,0 +1,19 @@
+.reviews {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) 0 118px var(--padding-20xl);
+  box-sizing: border-box;
+  gap: 43px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .reviews {
+    gap: 43px 0;
+  }
+}

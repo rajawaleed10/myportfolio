@@ -1,0 +1,112 @@
+.back-icon3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.back3 {
+  left: 0;
+  width: 59.5px;
+  cursor: pointer;
+}
+.back3,
+.home-icon,
+.home1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.home-icon {
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home1 {
+  left: 58px;
+  width: 60px;
+  cursor: pointer;
+  z-index: 1;
+}
+.outer-frame {
+  width: 138px;
+  height: 58px;
+  position: relative;
+}
+.contact-me1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-text {
+  height: 5px;
+  width: 1109px;
+  position: relative;
+  border-top: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-me-parent {
+  width: 1617px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.inner-frame,
+.side-image-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.inner-frame {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 33px 0;
+  text-align: left;
+  font-size: var(--font-size-56xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 960px) {
+  .contact-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contact-text {
+    display: none;
+  }
+  .inner-frame {
+    gap: 33px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact-text {
+    display: none;
+  }
+}

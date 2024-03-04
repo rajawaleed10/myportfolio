@@ -1,0 +1,105 @@
+.next-icon1 {
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back-icon1,
+.back1,
+.next-icon1,
+.next1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.next1 {
+  left: 59.5px;
+  width: 59.5px;
+  cursor: pointer;
+}
+.back-icon1,
+.back1 {
+  left: 0;
+}
+.back-icon1 {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.back1 {
+  width: 59.5px;
+  cursor: pointer;
+}
+.next-parent {
+  width: 139px;
+  height: 58px;
+  position: relative;
+}
+.my-portfolio,
+.text-frame-icon {
+  position: relative;
+  max-width: 100%;
+}
+.my-portfolio {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.text-frame-icon {
+  height: 0.5px;
+  width: 1109px;
+  object-fit: contain;
+}
+.my-portfolio-parent {
+  width: 1618px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-content,
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frame-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px 0;
+  text-align: left;
+  font-size: var(--font-size-56xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 1525px) {
+  .my-portfolio-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .my-portfolio {
+    font-size: var(--font-size-41xl);
+  }
+  .frame-parent {
+    gap: 36px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .my-portfolio {
+    font-size: var(--font-size-26xl);
+  }
+}

@@ -1,0 +1,277 @@
+.next-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back,
+.back-icon,
+.next {
+  position: absolute;
+  top: 0;
+  width: 59.5px;
+}
+.next {
+  height: 100%;
+  bottom: 0;
+  left: 59.5px;
+  cursor: pointer;
+}
+.back,
+.back-icon {
+  left: 0;
+}
+.back-icon {
+  height: 58px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.back {
+  height: 100%;
+  bottom: 0;
+  cursor: pointer;
+}
+.next-prev-frames {
+  height: 58px;
+  width: 119px;
+  position: relative;
+}
+.my-pic-2 {
+  align-self: stretch;
+  height: 601.4px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.navigation-buttons,
+.next-prev-frames-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navigation-buttons {
+  flex: 1;
+  flex-direction: column;
+  padding: 208px 0 0;
+  box-sizing: border-box;
+  min-width: 344px;
+}
+.next-prev-frames-parent {
+  width: 664px;
+  flex-direction: row;
+  gap: 0 16px;
+  min-width: 664px;
+}
+.about-me1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 315px;
+}
+.button-frame-icon {
+  height: 0.5px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 321px;
+}
+.line-separator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 55px;
+  max-width: 100%;
+}
+.i-am-a {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.hire-me-button-child {
+  height: 65px;
+  width: 218px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumspringgreen);
+  display: none;
+}
+.hire-me {
+  position: relative;
+  z-index: 1;
+}
+.hire-me-button,
+.my-cv-button-child {
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumspringgreen);
+}
+.hire-me-button {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 142px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.my-cv-button-child {
+  height: 65px;
+  width: 218px;
+  position: relative;
+  display: none;
+}
+.my-cv {
+  position: relative;
+  z-index: 1;
+}
+.my-cv-button {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumspringgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 142px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.hire-me-buttons-frame {
+  width: 463px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 27px;
+  max-width: 100%;
+}
+.passionate-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 38px 0;
+  max-width: 100%;
+  font-size: var(--font-size-16xl);
+}
+.about-me,
+.line-separator-parent,
+.passionate-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.line-separator-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px 0;
+  min-width: 562px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.about-me {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-30xl) 0 259px var(--padding-20xl);
+  box-sizing: border-box;
+  gap: 0 162px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-56xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 1350px) {
+  .next-prev-frames-parent {
+    flex: 1;
+  }
+  .about-me {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .about-me {
+    gap: 0 162px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navigation-buttons {
+    padding-top: 135px;
+    box-sizing: border-box;
+  }
+  .next-prev-frames-parent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .about-me1 {
+    font-size: var(--font-size-41xl);
+    flex: 1;
+  }
+  .line-separator {
+    flex-wrap: wrap;
+  }
+  .i-am-a {
+    font-size: var(--font-size-9xl);
+  }
+  .line-separator-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation-buttons {
+    padding-top: 88px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .about-me1 {
+    font-size: var(--font-size-26xl);
+  }
+  .line-separator {
+    gap: 0 55px;
+  }
+  .i-am-a {
+    font-size: var(--font-size-2xl);
+  }
+  .hire-me-buttons-frame {
+    flex-wrap: wrap;
+  }
+  .passionate-frame {
+    gap: 38px 0;
+  }
+  .about-me {
+    gap: 0 162px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .my-pic-2 {
+    flex: 1;
+  }
+}

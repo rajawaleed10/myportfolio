@@ -1,0 +1,111 @@
+.next-icon2 {
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back-icon2,
+.back2,
+.next-icon2,
+.next2 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.next2 {
+  left: 59.5px;
+  width: 59.5px;
+  cursor: pointer;
+}
+.back-icon2,
+.back2 {
+  left: 0;
+}
+.back-icon2 {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.back2 {
+  width: 59.5px;
+  cursor: pointer;
+  z-index: 1;
+}
+.next-group {
+  width: 139px;
+  height: 58px;
+  position: relative;
+}
+.happy-clients-say {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 518px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.text-frame-a {
+  height: 5px;
+  width: 931px;
+  position: relative;
+  border-top: 5px solid var(--color-mediumspringgreen);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.happy-clients-say-parent {
+  width: 1617px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.client-testimonials,
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frame-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: 27px 0;
+  text-align: left;
+  font-size: var(--font-size-56xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 1525px) {
+  .happy-clients-say {
+    flex: 1;
+  }
+  .happy-clients-say-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .happy-clients-say {
+    font-size: var(--font-size-41xl);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .happy-clients-say {
+    font-size: var(--font-size-26xl);
+  }
+}

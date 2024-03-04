@@ -1,0 +1,42 @@
+.group-icon {
+  position: absolute;
+  top: 0;
+  left: -82.8px;
+  width: 585px;
+  height: 356px;
+  object-fit: cover;
+  z-index: 1;
+}
+.portfolio-1 {
+  align-self: stretch;
+  height: 355.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.graphic-design,
+.portfolio-1 {
+  position: relative;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-jaldi);
+}
+@media screen and (max-width: 850px) {
+  .graphic-design {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .graphic-design {
+    font-size: var(--font-size-5xl);
+  }
+}
